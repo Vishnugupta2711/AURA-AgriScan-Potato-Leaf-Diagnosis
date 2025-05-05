@@ -1,0 +1,30 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+myenv/
+env/
+venv/
+
+# Ignore IDE/editor files (optional, based on your editor)
+.vscode/
+.idea/
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test result directories (if any)
+test_coverage/
+nosetests.xml
+coverage.xml
+
+# Ignore other Python-related files
+*.log
+*.bak
+*.swp
+
+# Ignore environment-specific files
+myenv/*
