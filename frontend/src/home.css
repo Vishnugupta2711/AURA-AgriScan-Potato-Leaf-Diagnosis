@@ -1,0 +1,38 @@
+/* Home.css */
+.MuiDropzoneArea-root {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border: 2px dashed #be6a77 !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  animation: fadeInZoom 0.5s ease-in-out;
+}
+
+.MuiDropzoneArea-root:hover {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  border-color: #ff9aa2 !important;
+}
+
+.MuiDropzoneArea-text {
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
+
+.MuiDropzoneArea-icon {
+  color: #ffffff !important;
+  font-size: 3rem !important;
+  margin-bottom: 8px !important;
+}
+
+@keyframes fadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

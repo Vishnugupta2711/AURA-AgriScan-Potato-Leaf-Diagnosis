@@ -1,0 +1,73 @@
+/* Reset & Base Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+	color: #f0f0f5;
+	min-height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+	margin-bottom: 0.5em;
+	letter-spacing: 0.5px;
+}
+
+p {
+	line-height: 1.6;
+	color: #cfcfd9;
+	margin-bottom: 1em;
+}
+
+/* Code Styling */
+code {
+	font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+	background-color: #2d2d3f;
+	color: #ffb86c;
+	padding: 2px 6px;
+	border-radius: 4px;
+}
+
+/* Enhanced Dropzone styling */
+.MuiDropzoneArea-root {
+	background-color: rgba(255, 255, 255, 0.05) !important;
+	border: 2px dashed #7c7c9c !important;
+	border-radius: 12px;
+	padding: 20px;
+	transition: border-color 0.3s ease;
+}
+
+.MuiDropzoneArea-root:hover {
+	border-color: #6ac1ff !important;
+}
+
+.MuiDropzoneArea-text, 
+.MuiDropzoneArea-icon {
+	color: #e0e0ff !important;
+	font-weight: 500;
+}
+
+/* Animations */
+.fade-in {
+	animation: fadeIn 0.8s ease-in-out both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
