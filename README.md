@@ -15,13 +15,12 @@
 
 ## 🌱 Overview
 
-This project uses deep learning to classify potato plant diseases from images. Our model can identify:
+The Potato Disease Classification project is a deep learning-based system designed to identify and categorize common diseases affecting potato plants using leaf imagery. This tool is capable of distinguishing among three critical classes:
 
-- 🦠 **Early Blight** - Caused by _Alternaria solani_
-- 🍄 **Late Blight** - Caused by _Phytophthora infestans_
-- ✅ **Healthy** - Normal potato plants
-
-Early detection of these diseases can help farmers take immediate action, potentially saving entire potato crops from devastation!
+🦠 Early Blight – a fungal disease caused by Alternaria solani, characterized by dark, concentric spots on older leaves
+🍄 Late Blight – a devastating disease caused by Phytophthora infestans, known for rapidly killing foliage and causing tuber rot
+✅ Healthy – leaves showing no signs of infection or abnormality, indicating a thriving, disease-free plant
+This model is trained on labeled image datasets and utilizes state-of-the-art convolutional neural networks (CNNs) to perform image classification with high accuracy. By automating disease detection through visual analysis, the project aims to empower farmers, agronomists, and agricultural researchers with a reliable tool for real-time crop health assessment.
 
 <div align="center">
   <img src="./assets/images/2.png" alt="Samples of potato diseases" width="600px">
@@ -30,11 +29,16 @@ Early detection of these diseases can help farmers take immediate action, potent
 
 ## 🔬 Why It Matters
 
-Potato diseases cause billions in economic losses yearly. By the time symptoms are visible to the naked eye, it's often too late:
+Diseases like early and late blight are among the most destructive threats to potato production worldwide. These diseases spread quickly and often go unnoticed in their early stages, making timely intervention extremely difficult. The consequences include:
 
-- Late blight can destroy entire fields in just a few days
-- Early blight reduces yields by 20-30%
-- Both diseases spread rapidly in humid conditions
+Late blight can cause complete crop failure in as little as 5–7 days under favorable conditions. It was famously responsible for the Irish Potato Famine.
+Early blight often leads to premature defoliation and can reduce yields by 20–30%, particularly in warm and humid climates.
+Chemical treatments are often more effective when applied early, but delayed diagnosis makes this challenging.
+The stakes are high: global potato production is valued in billions of dollars annually, and food security in many regions depends on it. This project aims to address these challenges by providing an accessible, efficient, and scalable method for early disease detection. Whether used via smartphone applications, drones, or IoT-connected cameras, the system can help in:
 
-Our tool helps farmers identify diseases at early stages when they're still treatable!
+Reducing the overuse of fungicides through targeted treatment
+Increasing crop yields and improving food availability
+Supporting precision agriculture and smart farming initiatives
+Minimizing economic losses for small-scale and industrial farmers alike
+By combining artificial intelligence with agricultural science, this project represents a step toward sustainable, data-driven farming solutions that can have a tangible impact on global food systems.
 
