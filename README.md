@@ -15,13 +15,12 @@
 
 ## 🌱 Overview
 
-This project uses deep learning to classify potato plant diseases from images. Our model can identify:
+This deep learning-based project is designed to classify potato plant conditions using image data. The model accurately detects:
 
-- 🦠 **Early Blight** - Caused by _Alternaria solani_
-- 🍄 **Late Blight** - Caused by _Phytophthora infestans_
-- ✅ **Healthy** - Normal potato plants
-
-Early detection of these diseases can help farmers take immediate action, potentially saving entire potato crops from devastation!
+🦠 Early Blight — caused by Alternaria solani
+🍄 Late Blight — caused by Phytophthora infestans
+✅ Healthy — normal, disease-free potato plants
+Timely disease detection empowers farmers to act early, preventing major crop losses and ensuring better yields.
 
 <div align="center">
   <img src="./assets/images/2.png" alt="Samples of potato diseases" width="600px">
@@ -30,11 +29,11 @@ Early detection of these diseases can help farmers take immediate action, potent
 
 ## 🔬 Why It Matters
 
-Potato diseases cause billions in economic losses yearly. By the time symptoms are visible to the naked eye, it's often too late:
+Potato crop diseases are responsible for massive agricultural losses worldwide. Immediate identification is critical because:
 
-- Late blight can destroy entire fields in just a few days
-- Early blight reduces yields by 20-30%
-- Both diseases spread rapidly in humid conditions
+Late blight can wipe out fields within days
+Early blight can reduce yields by up to 30%
+Both thrive and spread quickly under moist, humid conditions
+This tool provides a fast, accessible solution to detect diseases before they become unmanageable — enabling proactive treatment and improved food security.
 
-Our tool helps farmers identify diseases at early stages when they're still treatable!
 
